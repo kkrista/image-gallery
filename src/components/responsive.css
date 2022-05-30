@@ -1,0 +1,287 @@
+@media only screen and (min-device-width: 300px) {
+    .Photos h6 {
+      display: none;
+    }
+    .Photos .Searching .row {
+      margin-top: 40px;
+    }
+    .Photos .Forms .row .col-6 {
+      width: 78%;
+      margin-left: 0;
+    }
+    .Photos .Forms .search {
+      width: 100%;
+      height: 30px;
+      font-size: 12px;
+      padding: 2px 8px;
+      background-color: rgb(255, 255, 255, 20%);
+      color: pink;
+    }
+    .Photos .Forms .row .col-2 {
+      width: 22%;
+      padding: 0;
+    }
+    .Photos .col-2 .SubmitButton {
+      color: black;
+      width: 92% !important;
+      height: 30px !important;
+      font-size: 12px !important;
+      margin-left: 0;
+      text-align: center;
+      float: right;
+    }
+    .Photos .Forms .row .col-3 {
+      width: 100%;
+      padding: 0px;
+      margin-left: 0px;
+      margin-top: 10px;
+  
+      float: right;
+    }
+    .Photos .Forms .col-3 .favorites {
+      width: 20%;
+      border-radius: 100px;
+      height: 30px;
+      border: none;
+      float: right;
+    }
+    .Photos .btn {
+      padding: 0;
+      height: 40px;
+    }
+    .Photos .bi-bookmark-heart-fill {
+      width: 30px;
+      height: 30px;
+      padding-bottom: 5px;
+      color: pink;
+    }
+    .Photos .fav {
+      display: none;
+    }
+  
+    .Photos .btn-check:focus + .btn-primary,
+    .btn-primary:focus {
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      box-shadow: none;
+    }
+  
+    .Photos .col-3 .favorites:hover {
+      background-color: transparent;
+      color: black;
+      border: none;
+      transform: none;
+    }
+  }
+  
+  @media only screen and (min-device-width: 768px) {
+    .Photos h6 {
+      display: block;
+      margin-left: 10px;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .Photos .Searching .row {
+      margin-top: 50px;
+      margin-left: 5px;
+    }
+    .Photos .Forms .row .col-6 {
+      width: 55%;
+      margin-left: 0;
+    }
+    .Photos .Forms .search {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      padding: 2px 8px;
+    }
+    .Photos .Forms .row .col-2 {
+      width: 20%;
+      padding: 0;
+    }
+    .Photos .col-2 .SubmitButton {
+      color: black;
+      width: 90% !important;
+      height: 40px !important;
+      font-size: 16px !important;
+      margin-left: 0;
+    }
+    .Photos .Forms .row .col-3 {
+      width: 20%;
+      padding: 0px;
+      margin-left: 9px;
+      margin-top: 0;
+    }
+    .Photos .Forms .col-3 .favorites {
+      color: pink;
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid pink;
+      font-size: 16px;
+    }
+    .Photos .btn {
+      padding: 5px;
+      height: 40px;
+    }
+  
+    .Photos .fav {
+      display: inline;
+    }
+  
+    .Photos .btn-check:focus + .btn-primary,
+    .btn-primary:focus {
+      background-color: pink;
+      color: rgb(0, 0, 0);
+      box-shadow: 1px 1px 10px 5px rgb(172, 172, 172, 0.2);
+    }
+  
+    .Photos .col-3 .favorites:hover {
+      background-color: pink;
+      color: black;
+      border: 1px solid pink;
+      transform: scale(1.1);
+    }
+    .Photos .bi-bookmark-heart-fill {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-device-width: 992px) {
+    .Photos h6 {
+      display: block;
+      margin-left: 10px;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+    .Photos .Searching .row {
+      margin-top: 50px;
+      margin-left: 5px;
+    }
+    .Photos .Forms .row .col-6 {
+      width: 55%;
+      margin-left: 0;
+    }
+    .Photos .Forms .search {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+      padding: 2px 8px;
+    }
+    .Photos .Forms .row .col-2 {
+      width: 20%;
+      padding: 0;
+    }
+    .Photos .col-2 .SubmitButton {
+      color: black;
+      width: 90% !important;
+      height: 40px !important;
+      font-size: 16px !important;
+      margin-left: 0;
+    }
+    .Photos .Forms .row .col-3 {
+      width: 20%;
+      padding: 0px;
+      margin-left: 15px;
+      margin-top: 0;
+    }
+    .Photos .Forms .col-3 .favorites {
+      color: pink;
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      border: 1px solid pink;
+      font-size: 16px;
+    }
+    .Photos .btn {
+      padding: 5px;
+      height: 40px;
+    }
+  
+    .Photos .fav {
+      display: inline;
+    }
+  
+    .Photos .btn-check:focus + .btn-primary,
+    .btn-primary:focus {
+      background-color: pink;
+      color: rgb(0, 0, 0);
+      box-shadow: 1px 1px 10px 5px rgb(172, 172, 172, 0.2);
+    }
+  
+    .Photos .col-3 .favorites:hover {
+      background-color: pink;
+      color: black;
+      border: 1px solid pink;
+      transform: scale(1.1);
+    }
+    .Photos .bi-bookmark-heart-fill {
+      display: none;
+    }
+  }
+  @media only screen and (min-device-width: 1200px) {
+    .Photos h6 {
+      display: block;
+      margin-top: 10px;
+      margin-left: 50px;
+      font-size: 15px !important;
+    }
+    .Photos .Searching .row {
+      margin-top: 70px;
+      margin-left: 40px;
+    }
+    .Photos .Forms .row .col-6 {
+      width: 45%;
+      padding: 0;
+    }
+    .Photos .Forms .search {
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+      padding: 10px;
+    }
+    .Photos .Forms .row .col-2 {
+      width: 15%;
+    }
+    .Photos .col-2 .SubmitButton {
+      color: black;
+      width: 100% !important;
+      height: 50px !important;
+      font-size: 25px !important;
+      margin-left: 10px;
+      float: left;
+    }
+    .Photos .Forms .row .col-3 {
+      width: 30%;
+      padding: 0px;
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .Photos .Forms .col-3 .favorites {
+      color: pink;
+      width: 70%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid pink;
+      font-size: 25px;
+    }
+  
+    .Photos .fav {
+      display: inline;
+    }
+    .Photos .btn-check:focus + .btn-primary,
+    .btn-primary:focus {
+      background-color: pink;
+      color: rgb(0, 0, 0);
+      box-shadow: 1px 1px 10px 5px rgb(172, 172, 172, 0.2);
+    }
+    .Photos .col-3 .favorites:hover {
+      background-color: pink;
+      color: black !important;
+      border: 1px solid pink;
+      transform: scale(1.1);
+    }
+    .Photos .bi-bookmark-heart-fill {
+      display: none;
+    }
+  }

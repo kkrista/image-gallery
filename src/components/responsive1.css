@@ -1,0 +1,91 @@
+@media only screen and (min-device-width: 1200px) {
+    .FavoritePhotos {
+      padding: 0 !important;
+      padding-top: 20px !important;
+    }
+    .mr-3 {
+      font-size: 16px !important;
+      padding: 5px;
+      text-align: center;
+      margin-left: 0 !important;
+    }
+    .addtofav .mr-2 {
+      margin-left: 1vw !important;
+      font-size: 16px !important;
+    }
+    .addtofav .bi-heart-fill {
+      font-size: 16px !important;
+      color: black;
+    }
+  }
+  @media only screen and (min-device-width: 992px) {
+    .FavoritePhotos {
+      padding: 0 !important;
+      padding-top: 20px !important;
+    }
+    .mr-3 {
+      font-size: 14px !important;
+      padding: 5px;
+      text-align: center;
+      margin-left: 20px !important;
+    }
+    .addtofav .mr-2 {
+      margin-left: 1vw !important;
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (min-device-width: 768px) {
+    .FavoritePhotos {
+      padding: 0 !important;
+      padding-top: 20px !important;
+    }
+    .FavoritePhotos .overlay {
+      position: absolute;
+      height: 7vh !important;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .mr-3 {
+      font-size: 14px !important;
+      padding: 5px;
+      text-align: center;
+      margin-left: 20px !important;
+    }
+    .addtofav .mr-2 {
+      margin-left: 1vw !important;
+      font-size: 14px !important;
+    }
+  }
+  @media only screen and (min-device-width: 300px) {
+    .FavoritePhotos {
+      padding: 0 !important;
+      padding-top: 20px !important;
+    }
+    .FavoritePhotos .overlay {
+      position: absolute;
+      height: 6vh !important;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .mr-3 {
+      font-size: 12px;
+      padding: 5px;
+      text-align: center;
+      margin-left: 10px !important;
+    }
+    .mr-3 .bi {
+      font-size: 10px !important;
+      margin-left: 3px;
+    }
+    .Pictures .overlay {
+      height: 6vh !important;
+    }
+    .addtofav .mr-2 {
+      margin-left: 1vw;
+      font-size: 12px;
+    }
+    .addtofav .bi-heart-fill {
+      font-size: 12px !important;
+    }
+  }
