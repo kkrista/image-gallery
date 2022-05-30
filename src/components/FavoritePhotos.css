@@ -1,0 +1,41 @@
+.FavoritePhotos {
+    padding: 30px;
+    background-color: rgb(255, 215, 222);
+    border: 0.1px solid rgb(0, 0, 0, 10%);
+    border-radius: 10px;
+  }
+  .FavoritePhotos .image-container {
+    position: relative;
+    transition: transform 0.2s;
+  }
+  .FavoritePhotos img {
+    padding-bottom: 30px;
+    width: 100%;
+  }
+  .FavoritePhotos .image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .FavoritePhotos .image-container:hover .overlay {
+    opacity: 1;
+  }
+  .FavoritePhotos .overlay {
+    position: absolute;
+    background: rgba(17, 17, 17, 0.5);
+    width: 90%;
+    height: 8vh;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    font-size: 1vh;
+    color: rgba(255, 255, 255);
+    align-items: center;
+  }
+  
+  .mr-3 {
+    margin-left: 1vw;
+    padding: 0;
+    text-align: center;
+  }

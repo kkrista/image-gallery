@@ -1,0 +1,9 @@
+.addtofav button {
+    background-color: transparent !important;
+    padding: 0;
+    border: 0;
+  }
+  .addtofav .mr-2 {
+    margin-left: 10px !important;
+    font-size: 2vh;
+  }
