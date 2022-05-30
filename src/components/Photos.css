@@ -1,0 +1,41 @@
+.Pictures {
+    padding-top: 30px;
+  }
+  .Pictures .image-container {
+    position: relative;
+    transition: transform 0.2s;
+  }
+  .Pictures img {
+    padding-bottom: 30px;
+  }
+  .Pictures .image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .Pictures .image-container:hover .overlay {
+    opacity: 1;
+  }
+  .Pictures .overlay {
+    position: absolute;
+    background: rgba(17, 17, 17, 0.5);
+    width: 100%;
+    height: 8vh;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    color: rgba(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .mr-3 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .mr-3 .bi {
+    font-size: 20px;
+    margin-left: 10px;
+  }
