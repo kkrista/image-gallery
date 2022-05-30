@@ -1,0 +1,65 @@
+.Photos h6 {
+    color: pink;
+  }
+  .Photos .Searching .row {
+    margin-top: 40px;
+  }
+  .Photos .Forms .row .col-6 {
+    width: 41%;
+    padding: 0;
+    margin-left: 60px;
+  }
+  .Photos .Forms .search {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 20%);
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px;
+    color: pink;
+  }
+  
+  .Photos .Forms .row .col-2 {
+    width: 27%;
+  }
+  .Photos .Forms .col-2 .SubmitButton {
+    background-color: pink;
+    color: black;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .Photos .Forms .col-3 .favorites {
+    background-color: #141414;
+    color: pink;
+    border-radius: 10px;
+    border: 1px solid pink;
+    font-size: 20px;
+  }
+  .Photos .btn {
+    width: 90%;
+    height: 50px;
+  }
+  
+  .Photos .btn-check:focus + .btn-primary,
+  .btn-primary:focus {
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 5px rgb(172, 172, 172, 0.2);
+  }
+  
+  .Photos .col-3 .favorites:hover {
+    background-color: pink;
+    color: black;
+    border: 1px solid pink;
+    transform: scale(1.1);
+  }
+  .Photos .bi-bookmark-heart-fill {
+    width: 25px;
+    height: 23px;
+    margin-right: 2px;
+  }
